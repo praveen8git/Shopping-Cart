@@ -21,11 +21,11 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-shopping-cart-project.git
+   git clone https://github.com/praveen8git/Shopping-Cart.git
 
 2. Navigate to the project directory:
     ```bash
-    cd your-shopping-cart-project
+    cd Shopping-Cart
 
 3. Install the dependencies:
 
@@ -37,7 +37,7 @@ Before you begin, ensure you have met the following requirements:
 1. Start the development server:
 
     ```bash
-    npm start
+    npm run dev
 
 This will start the development server and open the application in your default web browser.
 
