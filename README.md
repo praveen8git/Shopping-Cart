@@ -1,27 +1,51 @@
-# React + TypeScript + Vite
+# React Shopping Cart Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple shopping cart web application built using React.js, Bootstrap, and TypeScript. This project allows users to browse products, add them to the cart, view the cart, and update quantities or remove items.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Browse and search for products.
+- Add products to the shopping cart.
+- View the shopping cart, update quantities, and remove items.
+- Preserve cart items upon navigating other pages or refreshing. 
 
-## Expanding the ESLint configuration
+## Prerequisites
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Before you begin, ensure you have met the following requirements:
 
-- Configure the top-level `parserOptions` property like this:
+- Node.js and npm installed on your development machine.
+- Basic understanding of React.js, Bootstrap, and TypeScript.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## Installation
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/your-shopping-cart-project.git
+
+2. Navigate to the project directory:
+    ```bash
+    cd your-shopping-cart-project
+
+3. Install the dependencies:
+
+    ```bash
+    npm install
+
+## Usage
+
+1. Start the development server:
+
+    ```bash
+    npm start
+
+This will start the development server and open the application in your default web browser.
+
+2. Browse through the list of products and click the "Add to Cart" button to add items to the shopping cart.
+
+3. Click the shopping cart icon in the navigation bar to view your cart. You can update quantities or remove items from the cart.
+
+## Technologies Used
+- React.js: A JavaScript library for building user interfaces.
+- Bootstrap: A popular CSS framework for responsive and visually appealing designs.
+- TypeScript: A superset of JavaScript that adds static types.
